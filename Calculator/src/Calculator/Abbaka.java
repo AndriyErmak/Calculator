@@ -30,7 +30,7 @@ public class Abbaka {
 		String str_exp = expression.getExpression();  
 		
 		// Debug blank expression
-		if(str_exp.length()==0){
+		if(str_exp.trim().length()==0){
 			expression.setCarret(0);
 			expression.setMistake("Expression is not defined!");
 		}

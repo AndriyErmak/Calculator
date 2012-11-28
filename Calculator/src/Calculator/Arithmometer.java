@@ -37,7 +37,7 @@ public class Arithmometer {
 				catch (NumberFormatException e) { // if "1 2" (blank in operand)
 					expression.setCarret(expression.getExpression().indexOf(oper));
 					expression.setLength(oper.length());
-					expression.setMistake("Operand is not correct");
+					expression.setMistake("Operand is not correct!");
 					break;
 				}
 				stkOperands.add(buffer);
